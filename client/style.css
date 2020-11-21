@@ -1,0 +1,60 @@
+body {
+	background-color: white;
+	color: #303030;	
+	font-family: "Trebuchet MS", sans-serif;
+	margin: 50px;
+}
+
+main {
+	background-color: #f5eff5;
+	margin: 20px auto; 
+	width: 70%;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 10px;					
+	box-shadow: 5px 5px 5px 0 #997099;
+}
+
+ul {
+	list-style-type: none;
+	margin: 10;
+	padding: 0;
+	border-radius: 5px;
+}
+
+li {
+	background-color: #d49dd4;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	height: auto;
+}
+
+li:nth-child(odd) {
+	background-color: #b07bb0;
+}
+
+form {
+	margin: 10;
+}
+
+button {
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 10px;
+	float: right;
+}
+
+#name {
+	width: 12%;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+#message {
+	width: 78%;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 20px;
+}
